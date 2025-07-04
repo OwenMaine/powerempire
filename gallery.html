@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Gallery | Power Empire LLC</title>
+    <meta name="description" content="View a gallery of our past projects, including custom engine builds, exterior modifications, detailing, and complete automotive restorations.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8UoGIt0nyDJrv4F/Yc4odRTjwYzFXdpdwfuPdmQHQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" integrity="sha512-ZKX+BvQihRJPA8CROKBhDNvoc2aDMOdAlcm7TUQY+35XYtrd3yh95QOOhsPDQY99L4pcugIYTTTgtLPx" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="index.html" class="logo">POWER EMPIRE</a>
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" id="hamburger-button">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Work</h1>
+            <p>A showcase of our passion for precision and performance</p>
+        </div>
+    </section>
+
+    <section class="gallery-page section-padding">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="btn-filter active" data-filter="all">All</button>
+                <button class="btn-filter" data-filter="engine">Engine</button>
+                <button class="btn-filter" data-filter="exterior">Exterior</button>
+                <button class="btn-filter" data-filter="detailing">Detailing</button>
+            </div>
+
+            <div class="gallery-grid-container">
+                <a href="images/9.jpg" data-lightbox="projects" data-title="Custom Turbo Engine Build" class="gallery-item" data-category="engine">
+                    <img src="images/9.jpg" alt="Custom Turbo Engine">
+                    <div class="gallery-item-overlay"><span>Engine</span></div>
+                </a>
+                <a href="images/4.jpg" data-lightbox="projects" data-title="Metallic Blue Full Repaint" class="gallery-item" data-category="exterior">
+                    <img src="images/4.jpg" alt="Custom Paint Job">
+                    <div class="gallery-item-overlay"><span>Exterior</span></div>
+                </a>
+                <a href="images/2.jpg" data-lightbox="projects" data-title="Engine Bay Deep Clean & Detailing" class="gallery-item" data-category="detailing">
+                    <img src="images/2.jpg" alt="Engine Bay Detailing">
+                    <div class="gallery-item-overlay"><span>Detailing</span></div>
+                </a>
+                <a href="images/10.jpg" data-lightbox="projects" data-title="Widebody Kit Installation" class="gallery-item" data-category="exterior">
+                    <img src="images/10.jpg" alt="Widebody Kit">
+                    <div class="gallery-item-overlay"><span>Exterior</span></div>
+                </a>
+                <a href="images/11.jpg" data-lightbox="projects" data-title="Supercharger Installation" class="gallery-item" data-category="engine">
+                    <img src="images/11.jpg" alt="Supercharger Installation">
+                    <div class="gallery-item-overlay"><span>Engine</span></div>
+                </a>
+                <a href="images/5.jpg" data-lightbox="projects" data-title="Full Interior Leather and Alcantara" class="gallery-item" data-category="detailing">
+                    <img src="images/5.jpg" alt="Custom Interior">
+                    <div class="gallery-item-overlay"><span>Detailing</span></div>
+                </a>
+                 <a href="images/3.jpg" data-lightbox="projects" data-title="Air Suspension Setup" class="gallery-item" data-category="exterior">
+                    <img src="images/3.jpg" alt="Air Suspension">
+                    <div class="gallery-item-overlay"><span>Exterior</span></div>
+                </a>
+                <a href="images/24.jpg" data-lightbox="projects" data-title="Custom Exhaust Manifold" class="gallery-item" data-category="engine">
+                    <img src="images/24.jpg" alt="Exhaust Manifold">
+                    <div class="gallery-item-overlay"><span>Engine</span></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Power Empire LLC. All Rights Reserved.</p>
+                <p>5680 Jason Lee Pl, Sarasota, FL 34233</p>
+                <div class="social-icons">
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
